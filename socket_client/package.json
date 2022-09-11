@@ -1,0 +1,22 @@
+{
+  "name": "socket_phoenix_test",
+  "version": "1.0.0",
+  "description": "Socket phoenix test with js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "elixir",
+    "phonenix",
+    "javascript"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "express": "^4.18.1",
+    "phoenix-channels": "^1.0.0"
+  }
+}
