@@ -51,6 +51,13 @@ To connect a client you can go to the following route and all the instructions o
 cd socket_client
 ```
 
+
+## Commands
+```sh
+mix phx.gen.context Chat Room rooms name:string desc:text
+mix phx.gen.context Chat.Message Message messages content:string room_id:references:rooms
+mix ecto.migrate
+```
 ## Learn more
 
   * Official website: https://www.phoenixframework.org/
